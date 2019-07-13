@@ -1,0 +1,283 @@
+/*body{
+	background-image:url("back3.jpg");
+	
+}*/
+
+
+#logo{
+	border-radius: 25px;
+	width:15%;
+	height:100px;
+	background-color: #cca3a3;
+	float:left;
+
+}
+
+#Project{
+	font-style:italic;
+	font-size:65px;
+	color:magenta;
+	text-align:center;
+	border-radius: 25px;
+	width:60%;
+	height:100px;
+	/*background-color: red;*/
+	float:left;
+}
+
+#Project_Name{
+	font-style:italic;
+	font-size:63px;
+	text-align:center;
+	border-radius: 25px;
+	width:100%;
+	height:70px;
+	float:left;
+}
+
+
+
+/* #Project_Slogan{
+	font-style:italic;
+	font-size:20px;
+	text-align:center;
+	border-radius: 25px;
+	width:100%;
+	height:30px;
+	
+	float:left;
+} */
+
+#Login{
+	border-radius: 25px;
+	width:25%;
+	height:100px;
+	float:left;"
+}
+
+#menu{
+	font-style:italic;
+	font-weight:bold;
+	border-radius: 25px;
+	width:100%;
+	
+	height:40px;
+	background-color: Cyan;
+	float:left;
+}
+
+a:active,a:link, a:visited {
+	border-radius: 25px;
+	background-color: cyan;
+	color: Blue;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size:17px;
+	display: inline-block;
+	
+}
+
+a:hover{
+	border-radius: 25px;
+	background-color: red;
+}
+
+ul {
+	border-radius: 25px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: cyan;
+}
+
+li {
+	float: left;
+}
+
+#dropdown {
+	display: inline-block;
+}
+
+li a, #dropbtn {
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+#dropdown-content {
+	font-style:italic;
+	border-radius: 25px;
+	display: none;
+	position: absolute;
+	background-color: cyan;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+#dropdown-content a:hover {
+	background-color: red
+}
+
+#dropdown:hover #dropdown-content {
+	display: block;
+}
+#main{
+	font-style:italic;
+	color:red;
+	height: 600px;
+}
+#footer{
+	border-radius:25px;
+	text-align:center;
+	background-color: black;
+	color:white;
+	height: 50px;
+	font-size:20px;
+}
+
+#lt{
+	border-radius: 25px;
+	width:25%;
+	height:460px;
+	/*background-color: #cca3a3;*/
+	float:left;
+}
+
+
+#cnt{
+	border-radius: 25px;
+	width:50%;
+	height:400px;
+	float:left;
+}
+#cntup{
+	/* border-radius: 25px; */
+	width:100%;
+	height:360px;
+	opacity:0.9;
+	background-color:  ivory;
+	float:bottom;
+	
+	
+}
+
+#cntdown{
+	border-radius: 25px;
+	width:100%;
+	height:100px;
+	background-color: yellow;
+	float:bottom;
+	
+}
+
+#cntl{
+	border-radius: 25px;
+	width:50%;
+	height:460px;
+	/*background-color: #cca3a3;*/
+	float:left;
+}
+
+#cntr{
+	border-radius: 25px;
+	width:50%;
+	height:460px;
+	/*background-color: #cca3a3;*/
+	float:left;
+}
+
+#rt{
+	border-radius: 25px;
+	width:25%;
+	height:460px;
+	/*background-color: #cca3a3;*/
+	float:left;
+}
+
+
+
+input[type=text],input[type=email],input[type=number], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border-radius:25px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  
+}
+
+input[type=submit]:hover {
+	background-color: cyan;
+}
+
+input[type=reset] {
+	border-radius:25px;
+  background-color: Tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+input[type=reset]:hover {
+	background-color: cyan;
+}
+
+
+.flip-box {
+  background-color: transparent;
+  width: 330px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+}
