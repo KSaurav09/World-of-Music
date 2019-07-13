@@ -3,3 +3,4 @@ The World of Music is fully based on Java Technology where anyone can register v
 HTML,CSS,JAVA SCRIPT is used front end.
 Servlet and JSP on server side.
 Oracle10g as a database.
+MVC 2 architecture and Dao layer design pattern is used in the project.
