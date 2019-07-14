@@ -41,8 +41,8 @@ public class EmailSendDemo extends HttpServlet {
 		String otp = ""+ (int)(Math.random()*10000);
 		boolean isOtpSent=false;
 		
-		final String username = "skbk1996@gmail.com";
-		final String password ="9031141170s";
+		final String username = "username@gmail.com";
+		final String password ="password";
 		
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
