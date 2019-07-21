@@ -3,7 +3,7 @@ The World of Music is fully based on Java Technology where anyone can register v
 
 After successful verification of the user's email. A signup page will be open where user has to give their basic details like name, mobile number, password etc. Validation also has been given to the signup page like name must not be blank or less than 3 character or contains only alphabet, mobile number must to of length 10, email validation, password validation like password contains at least of length 8 and at least a small alphabet, a capital alphabet,a number or a special symbol.
 
-After successful signup a login page will be diaplay where user has to enter their username and password.
+After successful signup a login page will be display where user has to enter their username and password.
 
 After successful login then a page will display where user has to select either audio or video and can download the song or play the song as well.
 
